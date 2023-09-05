@@ -1,0 +1,416 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #221F1F;
+}
+
+
+h1, h2, h3, h4, h5, h6, ul, li, a, div, p {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #000;
+    list-style: none;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+body {
+    height: calc(100vh - 77px);
+}
+
+.page-content {
+    height: calc(100vh - 77px);
+    display: block;
+    /* min-height: 572px!important; */
+}
+
+.page-content .tickets {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 700px;
+}
+
+.page-content .tickets .tickets-header {
+    width: 860px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.page-content .tickets .tickets-header .pers-info {
+    display: flex;
+}
+
+.page-content .tickets .tickets-header .pers-info .name {
+    display: inline-block;
+    color: #fff;
+    font-size: 36px;
+    font-weight: 700;
+    margin-right: 15px;
+}
+
+.page-content .tickets .tickets-header .pers-info .surname {
+    display: inline-block   ;
+    color: #fff;
+    font-size: 36px;
+    font-weight: 700;
+
+}
+.page-content .tickets .tickets-header .buttons {
+    display: flex;
+}
+
+.page-content .tickets .tickets-header .buttons .bar {
+    display: flex;
+    align-items: center;
+    border: 2px solid #434040;
+    width: 120px;
+    padding: 5px;
+    border-radius: 6px;
+    margin-right: 7px;
+}
+
+.page-content .tickets .tickets-header .buttons .bar > p {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.page-content .tickets .tickets-header .buttons .bar > img {
+    width: 23px;
+    height: 23px;
+}
+
+
+.page-content .tickets .tickets-header .buttons .profile {
+    display: flex;
+    align-items: center;
+    border: 2px solid #AB23EB;
+    width: 120px;
+    padding: 5px;
+    border-radius: 6px;
+}
+
+.page-content .tickets .tickets-header .buttons .profile > img {
+    width: 23px;
+    height: 23px;
+}
+
+.page-content .tickets .tickets-header .buttons .profile > p {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.page-content .tickets .tickets-content {
+    width: 860px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 480px;
+}
+
+.page-content .tickets .tickets-content .your-tickets {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 144px;
+}
+
+.block-height {
+    height: 240px!important;
+}
+
+.page-content .tickets .tickets-content .your-tickets .table {
+    width: 860px;
+    background-color: #2A2727;
+    border-radius: 12px;
+}
+
+.page-content .tickets .tickets-content .your-tickets .table .table-header {
+    padding: 10px;
+}
+
+.page-content .tickets .tickets-content .your-tickets .table .table-header > h1 {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.page-content .tickets .tickets-content .your-tickets .table .table-header p {
+    font-size: 12px;
+    font-weight: 700;
+    color: #AAA9A9;
+}
+
+.page-content .tickets .tickets-content .your-tickets .table .table-content {
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.page-content .tickets .tickets-content .your-tickets .table .table-content .field {
+    display: flex;
+    width: 28%;
+    height: 55px;
+    margin-bottom: 7px;
+    border: 1.5px solid #403D3D;
+    border-radius: 6px;
+    padding: 10px;
+}
+
+.page-content .tickets .tickets-content .your-tickets .table .table-content .field .field-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 50%;
+}
+
+.page-content .tickets .tickets-content .your-tickets .table .table-content .field .field-left > p {
+    font-size: 9px;
+    font-weight: 700;
+    color: #AAA9A9;
+    margin-bottom: 3px;
+}
+
+.page-content .tickets .tickets-content .your-tickets .table .table-content .field .field-left .city {
+    font-size: 12px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.page-content .tickets .tickets-content .your-tickets .table .table-content .field .field-right {
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+}
+
+.page-content .tickets .tickets-content .your-tickets .table .table-content .field .field-right > img {
+    width: 28px;
+    height: 28px;
+    cursor: pointer;
+}
+
+.circle {
+    cursor: pointer;
+}
+
+
+.circle:hover {
+    fill: #AB23EB;
+}
+
+.overlay {
+    display: none;
+}
+
+@media (max-width: 960px) {
+    .page-content {
+        height: calc(100vh - 77px);
+        /* display: flex;
+        /* flex-direction: column;
+        justify-content: center; */
+    }
+
+
+
+    .page-content .tickets {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        height: 700px;
+    }
+
+    .page-content .tickets .tickets-header {
+        width: 70vw;
+        height: 12vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .page-content .tickets .tickets-header .pers-info {
+        display: flex;
+        width: 70vw;
+    }
+
+    .page-content .tickets .tickets-header .pers-info .name {
+        display: inline-block;
+        color: #fff;
+        font-size: 36px;
+        font-weight: 700;
+        margin-right: 15px;
+    }
+
+    .page-content .tickets .tickets-header .pers-info .surname {
+        display: inline-block   ;
+        color: #fff;
+        font-size: 36px;
+        font-weight: 700;
+
+    }
+    .page-content .tickets .tickets-header .buttons {
+        display: flex;
+        width: 70vw;
+    }
+
+    .page-content .tickets .tickets-header .buttons .bar {
+        display: flex;
+        align-items: center;
+        border: 2px solid #434040;
+        width: 50%;
+        padding: 5px;
+        border-radius: 6px;
+        margin-right: 7px;
+    }
+
+    .page-content .tickets .tickets-header .buttons .bar > p {
+        color: #fff;
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .page-content .tickets .tickets-header .buttons .bar > img {
+        width: 23px;
+        height: 23px;
+    }
+
+
+    .page-content .tickets .tickets-header .buttons .profile {
+        display: flex;
+        align-items: center;
+        border: 2px solid #AB23EB;
+        width: 50%;
+        padding: 5px;
+        border-radius: 6px;
+    }
+
+    .page-content .tickets .tickets-header .buttons .profile > img {
+        width: 23px;
+        height: 23px;
+    }
+
+    .page-content .tickets .tickets-header .buttons .profile > p {
+        color: #fff;
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .page-content .tickets .tickets-content {
+        width: 70vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        /* height: 50vh; */
+    }
+
+    .page-content .tickets .tickets-content .your-tickets {
+        display: flex;
+        /* flex-direction: column; */
+        /* justify-content: space-around; */
+        margin-bottom: 10px!important;
+        /* height: 20vh; */
+    }
+
+    .block-height {
+        height: 240px!important;
+    }
+
+    .page-content .tickets .tickets-content .your-tickets > h1 {
+        color: #fff;
+        font-size: 24px;
+        font-weight: 700;
+    }
+
+
+
+    .page-content .tickets .tickets-content .your-tickets .table {
+        width: 70vw;
+        background-color: #2A27;
+        border-radius: 12px;
+    }
+
+    .page-content .tickets .tickets-content .your-tickets .table .table-content {
+        padding: 10px;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .page-content .tickets .tickets-content .your-tickets .table .table-content .field {
+        display: flex;
+        width: 28%;
+        margin-bottom: 7px;
+        border: 1.5px solid #403D3D;
+        border-radius: 6px;
+        padding: 10px;
+    }
+
+    .page-content .tickets .tickets-content .your-tickets .table .table-content .field .field-left {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 50%;
+    }
+
+    .page-content .tickets .tickets-content .your-tickets .table .table-content .field .field-left > p {
+        font-size: 9px;
+        font-weight: 700;
+        color: #AAA9A9;
+        margin-bottom: 3px;
+    }
+
+    .page-content .tickets .tickets-content .your-tickets .table .table-content .field .field-left .city {
+        font-size: 12px;
+        color: #fff;
+        font-weight: 700;
+    }
+
+    .page-content .tickets .tickets-content .your-tickets .table .table-content .field .field-right {
+        display: flex;
+        justify-content: flex-end;
+        width: 50%;
+    }
+
+    .page-content .tickets .tickets-content .your-tickets .table .table-content .field .field-right > img {
+        width: 28px;
+        height: 28px;
+        cursor: pointer;
+    }
+
+    .page-content .tickets .tickets-content .your-tickets .table .record .image-holder {
+        width: 10vh;
+
+    }
+
+    .page-content .tickets .tickets-content .your-tickets .table .record img {
+        width: 28px;
+        height: 28px;
+        cursor: pointer;
+    }
+}
+
+@media (max-width:650px) {
+
+    .name {
+        display: none!important;
+    }
+    .field {
+        width: 100%!important;
+    }
+
+    .your-tickets {
+        height: 500px!important;
+    }
+}

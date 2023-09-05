@@ -1,0 +1,300 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, ul, li, a, div, p {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #000;
+    list-style: none;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.page-content {
+    height: calc(100vh - 77px);
+    display: block;
+    overflow-x: hidden;
+    /* min-height: 572px!important; */
+}
+
+.overlay {
+    display: none;
+}
+
+@media (max-width: 3000px) {
+    body, html {
+        background: #000;
+    }
+
+    .page-content .slider-container {
+        position: relative;
+        display: block;
+        height: calc(100vh - 77px);
+    }
+
+    .page-content .slider-container .slide {
+        z-index: 0;
+        background-size: cover;
+        background-position: center;
+        height: calc(100vh - 77px);
+        background-repeat: no-repeat;
+        opacity: 0.7;
+        width: 360px;
+        display: inline-block;
+        justify-content: center;
+        position: relative;
+    }
+
+    .slider-container .slide:hover .overlay {
+        display: block;
+        background-color: rgba(0,0,0,0.7);
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+
+    }
+
+    .slider-container .slide:hover .overlay .overlay-header {
+        display: block;
+        height: 50px;
+        padding: 20px;
+    }
+
+    .slider-container .slide:hover .overlay .overlay-header > p {
+
+    }
+
+    .slider-container .slide:hover .overlay .overlay-header .details {
+        display: flex;
+        align-items: center;
+        float: left;
+        margin-left: 5px;
+    }
+
+    .slider-container .slide:hover .overlay .overlay-header .details > p{
+        color: #fff;
+        display: inline-block;
+        margin-left: 10px;
+        font-weight: 600;
+    }
+
+    .slider-container .slide:hover .overlay .overlay-header .details > img {
+        width: 39px;
+        margin-left: 5px;
+        display: inline-block;
+    }
+
+    .slider-container .slide:hover .overlay .overlay-header .trailer {
+        float: right;
+        margin-right: 5px;
+        display: flex;
+        align-items: center;
+
+    }
+
+    .slider-container .slide:hover .overlay .overlay-header .trailer > img {
+        width: 33px;
+        margin-right: 10px;
+    }
+
+    .slider-container .slide:hover .overlay .overlay-header .trailer > p {
+        color: #fff;
+        font-weight: 600;
+    }
+
+    .slider-container .slide:hover .overlay-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 50px;
+        height: 45%;
+    }
+
+    .slider-container .slide:hover .overlay-content .first {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 40px;
+    }
+
+    .first > p {
+        color: #fff;
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .slider-container .slide:hover .overlay-content .second {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 40px;
+    }
+
+    .second > p {
+        font-size: 18px;
+        color: #AB23EB;
+        font-weight: 600;
+    }
+
+    .slider-container .slide:hover .overlay-content .third {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 40px;
+    }
+
+    .third > p {
+        color: #fff;
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .slider-container .slide:hover .overlay .overlay-content .shedule {
+    }
+
+    .slider-container .slide:hover .overlay .overlay-content .shedule .time-line{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+
+    .slider-container .slide:hover .overlay .overlay-content .shedule .time-line > a {
+        color: #AB23EB;
+        margin-right: 10px;
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    .slider-container .slide:hover .overlay .overlay-content .shedule .time-line > a:hover {
+        color: #fff;
+        margin-right: 10px;
+        font-size: 18px;
+    }
+
+    .slider-container .slide:hover .overlay .overlay-footer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 45%;
+    }
+
+    .slider-container .slide:hover .overlay .overlay-footer > a{
+        color: #fff;
+        font-size: 36px;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .slider-container .slide:hover .overlay .overlay-footer > a:hover{
+        color: #AB23EB;
+        font-size: 36px;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .slider-container .slide:hover .name {
+        font-size: 0;
+    }
+
+    .slider-container .slide .name {
+        color: #fff;
+        position: absolute;
+        bottom: 0;
+        left: 30%;
+        font-size: 36px;
+        font-weight: 600;
+        z-index: 2;
+        margin-bottom: 5px;
+    }
+
+    .page-content .slider-container .slick-arrow {
+        position: fixed;
+        z-index: 2;
+        top: 50%;
+        height: 50px;
+        width: 70px;
+        display: inline-block;
+        cursor: pointer;
+        border: none;
+        font-size: 0;
+    }
+
+    .next {
+        position: fixed;
+        z-index: 2;
+        top: 50%;
+        height: 50px;
+        width: 70px;
+        display: inline-block;
+        cursor: pointer;
+        border: none;
+        right: 0;
+        fill: #AB23EB;
+    }
+
+    .prev {
+        position: absolute;
+        z-index: 2;
+        top: 50%;
+        height: 50px;
+        width: 70px;
+        display: inline-block;
+        cursor: pointer;
+        border: none;
+        left: 0;
+        fill: #AB23EB;
+        transform: rotate(180deg);
+    }
+}
+
+@media (max-width: 960px) {
+
+    .slider-container {
+        display: none!important;
+    }
+
+    body {
+        background-color: #221F1F;
+    }
+
+    .vertical-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: calc(100vh - 77px);
+        margin-top: 5px;
+    }
+
+    .vertical-content .slide {
+        z-index: 0;
+        min-height: 910px;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        background-repeat: no-repeat;
+        opacity: 0.7;
+        width: 95%;
+        margin-bottom: 10px;
+        border-radius: 6px;
+        text-align: center;
+    }
+
+    .vertical-content .slide .name {
+        color: #fff;
+        position: absolute;
+        bottom: 0;
+        left: 30%;
+        font-size: 36px;
+        font-weight: 600;
+        z-index: 2;
+        margin-bottom: 5px;
+    }
+
+    .vertical-content .slide .name:hover {
+        color: #AB23EB;
+    }
+}

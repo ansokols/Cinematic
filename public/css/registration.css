@@ -1,0 +1,219 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #221F1F;
+}
+
+body {
+    position: relative;
+}
+
+h1, h2, h3, h4, h5, h6, ul, li, a, div, p {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #000;
+    list-style: none;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.page-content {
+    height: calc(100vh - 77px);
+    min-height: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.page-content .login {
+    height: 391px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.page-content .login .login-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.page-content .login .login-header > h1{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.page-content .login .login-header > p{
+    font-size: 18px;
+    font-weight: 600;
+    color: #858585;
+}
+
+.page-content .login .login-content {
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    justify-content: space-between;
+}
+
+.page-content .login .login-content form {
+    width: 20vw;
+}
+
+.page-content .login .login-content .login-form {
+    border: 0.3px solid #434040;
+    border-radius: 6px;
+    background-color: #221F1F;
+    width: 20vw;
+    height: 42px;
+    margin-bottom: 15px;
+    padding: 5px 0 0 5px;
+    outline: none;
+}
+
+.login-form:focus {
+    color: #AB23EB;
+}
+
+.page-content .login .login-content .login-form > p {
+    color: #434040;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.page-content .login .login-content .password-form {
+    border: 1px solid #434040;
+    background-color: #221F1F;
+    width: 20vw;
+    height: 42px;
+    border-radius: 6px;
+    padding: 5px 0 0 5px;
+    outline: none;
+}
+
+.password-form:focus {
+    color: #AB23EB;
+}
+
+.page-content .login .login-content .password-form > p {
+    color: #434040;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.page-content .login .login-footer {
+    margin-top: 40px;
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.page-content .login .login-footer .btn-sub {
+    width: 170px;
+    height: 47px;
+    background-color: #AB23EB;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.page-content .login .login-footer .btn-sub > h1 {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.page-content .login .login-footer .btn-reg {
+    width: 170px;
+    height: 47px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.page-content .login .login-footer .btn-reg > a {
+    font-size: 12px;
+    font-weight: 500;
+    color: #AB23EB;
+    opacity: 0.6;
+    text-decoration: underline;
+}
+
+@media (max-width: 960px) {
+    .btn-sub {
+        width: 35vw!important;
+    }
+
+    .btn-reg {
+        width: 35vw!important;
+    }
+
+    .login-content {
+        width: 35vw!important;
+    }
+
+    .login-footer {
+        width: 35vw!important;
+    }
+
+    form {
+        width: 35vw!important;
+    }
+
+    .login-form {
+        width: 35vw!important;
+    }
+
+    .password-form {
+        width: 35vw!important;
+    }
+
+    .page-header {
+        width: 100%;
+        border-bottom: 1px solid #AB23EB;
+    }
+
+    .account {
+        display: none;
+    }
+
+    .enter {
+        display: none;
+    }
+
+    .account-icon {
+        display: none;
+    }
+
+    .text {
+        display: flex;
+    }
+
+    .text > p {
+        color: #fff;
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .right-block .end {
+        display: flex;
+        width: 30px;
+        height: 60px;
+        cursor: pointer;
+        margin-right: 40px;
+    }
+}
+

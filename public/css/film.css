@@ -1,0 +1,397 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+h1, h2, h3, h4, h5, h6, ul, li, a, div, p {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #000;
+    list-style: none;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+body {
+    background-color: #221F1F;
+    overflow-x: hidden;
+}
+
+.page-header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 77px;
+}
+
+#film-path {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    position: relative;
+    top: 13px;
+    left: 21px;
+    color: #FFFFFF;
+    margin-top: 77px;
+}
+
+#poster {
+    position: relative;
+    top: 25px;
+    left: 21px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+#film-name {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 51px;
+    position: absolute;
+    left: 320px;
+    top: 110px;
+    color: #FFFFFF;
+}
+
+
+#film-info {
+    position: absolute;
+    top: 165px;
+    left: 320px;
+}
+
+.col1 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #FFFFFF;
+}
+
+.col2 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+
+
+    color: rgba(255, 255, 255, 0.7);
+
+}
+
+td {
+    height: 23px;
+    width: 220px;
+}
+
+.trailer {
+    background-color: #434040;
+    padding: 14px 44px 14px 75px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    position: absolute;
+    top: 518px;
+    left: 21px;
+    border-radius: 0px 0px 20px 20px;
+    color: #FFFFFF;
+}
+
+.trailer:hover {
+    background-color: #AB23EB;
+    text-decoration: none;
+    color: white;
+}
+
+.trailer-img {
+    position: absolute;
+    top: 533px;
+    left: 75px;
+
+}
+
+.description {
+    width: 679px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 39px;
+    position: absolute;
+    left: 320px;
+    top: 570px;
+    color: #FFFFFF;
+}
+
+.timetable {
+    width: 374px;
+    height: 411px;
+    background-color: #2A2727;
+    position: absolute;
+    top: 110px;
+    right: 50px;
+    border-radius: 20px;
+    z-index: 1;
+}
+
+.timetable-sm {
+    display: none;
+    /*width: 90%;*/
+    width: calc(100vw - 42px);
+    height: 411px;
+    background-color: #2A2727;
+    border-radius: 20px;
+    position: relative;
+    top: 500px;
+    margin-left: 21px;
+    margin-right: 21px;
+    /*left: 3.5%;*/
+}
+
+.timetable-1 {
+    background-color: #434040;
+    height: 132px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.timetable-text {
+    padding-left: 25px;
+    padding-top: 25px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    color: #FFFFFF;
+
+}
+
+.times-table a{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+
+    position: relative;
+    top: 60px;
+    left: 15px;
+
+    color: #AB23EB;
+
+
+    text-decoration: none;
+}
+
+.times-table tr {
+    height: 35px;
+    width: 150px;
+}
+
+.times-table a:hover {
+    color: white;
+}
+
+.c-c {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+
+    position: relative;
+    left: 15px;
+    top: 25px;
+
+    color: #FFFFFF;
+}
+
+
+.rating {
+    position: relative;
+    top: 100px;
+    left: 80px;
+
+}
+
+.time-drop p{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    width: 320px;
+    height: 30px;
+    text-align: center;
+    position: relative;
+    top: 20px;
+    left: 25px;
+    background: #544F4F;
+    border-radius: 6px;
+    color: #FFFFFF;
+    float: left;
+    cursor: pointer;
+}
+
+.time-arrow {
+    float: left;
+    position: relative;
+    top: 25px;
+    cursor: pointer;
+}
+
+.dates {
+    width: 320px;
+    position: relative;
+    left: 25px;
+    top: 48px;
+    background-color: #544F4F;
+    z-index: 100;
+    text-align: center;
+    display: none;
+}
+
+.dates a {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    /*padding: 5px 100px;*/
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.dates a:hover {
+    background-color: #2A2727;
+}
+
+.like-circle {
+    border: 1px solid #AB23EB;
+    width: 60px;
+    height: 60px;
+    z-index: 1;
+    position: absolute;
+    left: 70px;
+    top: 600px;
+    border-radius: 50%;
+}
+
+.dislike-circle {
+    z-index: 1;
+    border: 1px solid #AB23EB;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: absolute;
+    top: 600px;
+    left: 180px;
+}
+
+.like-num {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    position: absolute;
+    top: 670px;
+    left: 90px;
+
+    color: #FFFFFF;
+
+}
+
+.dislike-num {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    position: absolute;
+    top: 670px;
+    left: 200px;
+
+    color: #FFFFFF;
+}
+
+.like {
+    position: absolute;
+    top: 600px;
+    left: 70px;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.dislike {
+    position: absolute;
+    top: 600px;
+    left: 180px;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.like-img {
+    position: absolute;
+    top: 600px;
+    left: 70px;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.dislike-img {
+    position: absolute;
+    top: 600px;
+    left: 180px;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1200px) {
+    .timetable {
+        display: none;
+    }
+
+    .timetable-sm {
+        display: block !important;
+    }
+
+    .time-drop-sm {
+        width: calc(100vw - 42px);
+        /*margin-left: 20vw;*/
+    }
+
+    .dates-sm {
+        width: calc(100vw - 42px - 46px);
+        /*margin-left: 20vw;*/
+    }
+
+    .time-drop-sm p {
+        width: calc(100vw - 42px - 46px);
+    }
+
+    .times-table, .c-c {
+        width: 100%;
+        /*margin-left: 10%;*/
+    }
+}

@@ -1,0 +1,648 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: #221F1F;
+    z-index: 1;
+}
+
+h1, h2, h3, h4, h5, h6, ul, li, a, div, p {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #000;
+    list-style: none;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.page-header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 77px;
+}
+
+.logo-border {
+    position: absolute;
+    width: 131px;
+    height: 47px;
+    left: 80px;
+    top: 8px;
+    /*filter: drop-shadow(0.5px 1px 4px #AB23EB);*/
+    border: 3px solid #AB23EB;
+    box-sizing: border-box;
+    border-radius: 3px;
+    z-index: 1;
+}
+
+.logo-text {
+    position: absolute;
+    width: 108px;
+    height: 30px;
+    left: 91px;
+    top: 20px;
+    margin-left: 2px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    z-index: 1;
+    color: #AB23EB;
+}
+
+.menu-lines {
+    position: absolute;
+    width: 29px;
+    height: 22px;
+    margin: 21px;
+    z-index: 1;
+    cursor: pointer;
+}
+
+body {
+    background-color: #221F1F;
+    z-index: 1;
+}
+
+.big-logo {
+    display: inline;
+    position: absolute;
+    text-decoration: none;
+    margin-left: 625px;
+    z-index: 1;
+    top: 110px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 59px;
+
+    color: #AB23EB;
+
+    filter: blur(1px);
+
+    border: 10px solid #AB23EB;
+    box-sizing: border-box;
+    border-radius: 12px;
+    padding: 40px 66px;
+
+
+}
+
+.l {
+    margin-top: 130px;
+}
+
+.city {
+    display: inline;
+
+    text-align: justify;
+    position: relative;
+    left: 30px;
+
+    text-decoration: none;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #FFFFFF;
+
+    background: #AB23EB;
+    border-radius: 15px;
+    padding: 13px 33px 13px 33px;
+}
+
+#city {
+    display: flex;
+    z-index: 1;
+    column-gap: 30px;
+    position: absolute;
+    margin-left: 588px;
+    margin-top: 286px;
+    justify-content: space-between;
+}
+
+.matic {
+    position: relative;
+    top: 351px;
+    border: solid 1px #AB23EB;
+    /*height: 184px;*/
+    /*width: 1660px;*/
+    height: 20vh;
+    width: 100%;
+    z-index: 1;
+    background-color: #221F1F;
+}
+
+.m {
+    position: relative;
+    margin-top: 26px;
+    z-index: 1;
+    height: 100vh;
+}
+
+.m4-1 {
+    vertical-align: top;
+    padding-left: 51px;
+    padding-top: 15px;
+    display: inline;
+    position: relative;
+    z-index: 1;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+
+    color: #FFFFFF;
+}
+
+.timetable {
+    margin-top: 46px;
+    margin-right: 53px;
+    float: right;
+    text-decoration: none;
+    padding: 35px 57px 35px 57px;
+    margin-bottom: 46px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #FFFFFF;
+
+    background: #AB23EB;
+    border-radius: 12px;
+}
+
+.street {
+    position: absolute;
+    display: inline;
+    float: left;
+    left: 425px;
+    top: 50px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 37px;
+
+    color: #FFFFFF;
+}
+
+.imax {
+    position: absolute;
+    display: inline;
+    margin-left: -13.8%;
+    margin-top: 9%;
+    word-spacing: 8px;
+    color: #AB23EB;
+    font-size: 20px;
+    font-family: Montserrat;
+    font-style: normal;
+
+}
+
+
+.menu {
+    display: none;
+    position: absolute;
+    height: 1000px;
+
+    width: 340px;
+    background-color: #221F1F;
+    margin-left: -10px;
+    margin-top: -25px;
+    z-index: 10;
+}
+
+#close {
+    width: 27px;
+    height: 27px;
+    cursor: pointer;
+    position: absolute;
+    top: 50px;
+    left: 18px;
+}
+
+.menu-a {
+    text-decoration: none;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+
+}
+
+.menu-links {
+    position: relative;
+    top: 200px;
+    left: 86px;
+}
+
+.lb {
+    position: relative;
+    width: 131px;
+    height: 47px;
+    top: 72px;
+    left: 86px;
+    filter: drop-shadow(0.5px 1px 4px #AB23EB);
+    border: 3px solid #AB23EB;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+
+.lt {
+    position: relative;
+    width: 108px;
+    height: 30px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    top: 36px;
+
+    left: 98px;
+    color: #AB23EB;
+}
+
+.menu-a:active {
+    color: rgba(171, 35, 235, 1);
+}
+
+#cabinet {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #FFFFFF;
+    position: relative;
+    top: 280px;
+    left: 86px;
+}
+
+#menu-log {
+    text-decoration: none;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    position: relative;
+    top: 290px;
+    left: 110px;
+    color: #FFFFFF;
+    background: #AB23EB;
+    border-radius: 8px;
+    padding: 14px 5px 14px 36px;
+}
+
+#log-png {
+    position: relative;
+    top: 293px;
+    left: 2px;
+    width: 23.3px;
+    height: 23px;
+}
+
+#tel {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #FFFFFF;
+
+    position: relative;
+    top: 350px;
+    left: 105px;
+}
+
+#help {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #FFFFFF;
+
+    position: relative;
+    top: 350px;
+    left: 86px;
+
+}
+
+#media {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #FFFFFF;
+
+    position: relative;
+    top: 370px;
+    left: 55px;
+}
+
+#tel-png {
+    position: relative;
+    top: 275px;
+    left: 70px;
+    height: 24px;
+    width: 24px;
+}
+
+#fb {
+    position: absolute;
+    bottom: 80px;
+    left: 54px;
+    height: 51px;
+    width: 51px;
+}
+
+#viber {
+    position: absolute;
+    bottom: 80px;
+    left: 149px;
+    height: 51px;
+    width: 47px;
+}
+
+#inst {
+    position: absolute;
+    bottom: 80px;
+    left: 240px;
+    height: 51px;
+    width: 51px;
+}
+
+a.timetable {
+    position: static;
+    right: 70px;
+}
+a.timetable:hover {
+    color: white;
+    text-decoration: none;
+}
+
+@media (max-width: 900px) {
+    /*
+        .slider-container {
+            display: none!important;
+        } */
+
+    .page-header {
+        width: 100%;
+        border-bottom: 1px solid #AB23EB;
+    }
+
+    .cinema-name {
+        display: none;
+    }
+
+    .cinema-list {
+        display: none;
+    }
+
+    .account {
+        display: none;
+    }
+
+    .enter {
+        display: none;
+    }
+
+    .account-icon {
+        display: none;
+    }
+
+    .text {
+        display: flex;
+    }
+
+    .text > p {
+        color: #fff;
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .right-block .end {
+        display: flex;
+        width: 30px;
+        height: 60px;
+        cursor: pointer;
+        margin-right: 40px;
+    }
+
+    .left-block > img {
+        display: none;
+    }
+
+    .name {
+        color: #fff;
+        position: absolute;
+        bottom: 0;
+        left: 30%;
+        font-size: 14px;
+        font-weight: 400;
+        z-index: 2;
+        margin-bottom: 5px;
+    }
+
+    .vertical-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 3px;
+    }
+
+    .vertical-content .slide {
+        z-index: 0;
+        min-height: 910px;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        background-repeat: no-repeat;
+        opacity: 0.7;
+        width: 95%;
+        margin-bottom: 10px;
+        border-radius: 6px;
+    }
+
+    .vertical-content .slide .name {
+        color: #fff;
+        position: absolute;
+        bottom: 0;
+        left: 30%;
+        font-size: 36px;
+        font-weight: 600;
+        z-index: 2;
+        margin-bottom: 5px;
+    }
+
+}
+
+/* @media (max-width: 600px) {
+        .page-header .right-block .cinema .cinema-list > img {
+            width: 19px;
+            height: 19px;
+            margin-left: 0;
+        }
+
+        .page-header {
+            width: 100%;
+        }
+}
+  */
+
+@media screen and (max-width: 550px) {
+
+
+    .big-logo {
+        position: absolute;
+        margin-top: 2%;
+        margin-left: 2%;
+    }
+    .m {
+        position: absolute;
+        margin-top: 35%;
+        width: 100%;
+
+    }
+    #city {
+        position: absolute;
+        margin-top: 35%;
+        margin-left: 1%;
+        width: 100%;
+        display: none;
+    }
+    #odesa {
+        display: inline !important;
+        font-size: 35px;
+        padding: 20px 50px 20px 50px;
+        position: absolute !important;
+        margin-top: 60% !important;
+        margin-left: 17% !important;
+    }
+    #kyiv {
+        display: inline !important;
+
+        font-size: 35px;
+        padding: 20px 68px 20px 68px;
+        position: absolute;
+        margin-top: 80%;
+        margin-left: 17%;
+
+    }
+    #harkiv {
+        display: inline !important;
+
+        font-size: 35px;
+        padding: 20px 50px 20px 50px;
+        position: absolute;
+        margin-top: 100%;
+        margin-left: 17%;
+    }
+    .image {
+        display: none;
+    }
+    a.timetable {
+        position: absolute;
+        padding: 20px 42px 20px 42px;
+        margin-top: 25%;
+        margin-right: 8.5%;
+        /* margin-left: -5%; */
+    }
+    .m4-1 {
+        position: absolute;
+        margin-left: 10%;
+        margin-top: -3%;
+    }
+    .imax {
+        position: absolute;
+        margin-top: 10%;
+        margin-left: 21%;
+    }
+    .street {
+        display: none;
+    }
+
+}
+
+@media screen and (min-width: 560px) and (max-width: 1280px) {
+    .m {
+        position: relative;
+        bottom: 1%;
+    }
+    .big-logo {
+        position: absolute;
+        margin-left: 23%;
+        margin-right: 50%;
+        font-size: 80px;
+        padding: 66px 86px;
+    }
+    #city {
+        position: absolute;
+        margin-left: 14%;
+    }
+    .city {
+        font-size: 40px;
+        padding: 33px 53px;
+    }
+    .street, .m4-1, .imax, .timetable {
+        font-size: 35px;
+    }
+    .image {
+        display: none;
+    }
+    .matic {
+        position: relative;
+        top: 30%;
+    }
+    .timetable {
+        padding: 55px 77px;
+        position: relative;
+        margin-top: 6%;
+    }
+    .m4-1 {
+        position: relative;
+        margin-top: 8%;
+        margin-left: 0.5%;
+    }
+    .street {
+        position: relative;
+        margin-left: -35%;
+        margin-top: 4%;
+    }
+    .imax {
+        position: absolute;
+        margin-top: 20%;
+        margin-left: -26%;
+    }
+
+}
+
+#odesa, #kyiv, #harkiv {
+    display: none;
+}

@@ -1,0 +1,385 @@
+::selection {
+    background-color: #AB23EB;
+    color: #fff;
+}
+
+/*//////////////////////////////////////// Scrollbar ////////////////////////////////////////*/
+
+::-webkit-scrollbar {
+    width: 7px;
+    height: 6px;
+}
+
+::-webkit-scrollbar-button {
+    display: none;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #221F1F;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #AB23EB;
+}
+
+::-webkit-scrollbar-corner{
+    background-color: #AB23EB;
+}
+
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #AB23EB #221F1F;
+}
+
+/*///////////////////////////////////// Конец Scrollbar /////////////////////////////////////*/
+
+/*////////////////////////////////////////// Шапка //////////////////////////////////////////*/
+
+.page-content {
+    margin-top: 77px;
+}
+
+.page-header {
+    display: flex;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 77px;
+    background-color: #221F1F;
+    z-index: 1;
+    border-bottom: 1px solid #AB23EB;
+}
+
+.page-header .left-block {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    position: relative;
+}
+
+.page-header .left-block > img {
+    width: 30px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.page-header .left-block .logo-container {
+    border: 3px solid #AB23EB;
+    margin-left: 20px;
+    border-radius: 3px;
+    padding: 6px;
+}
+
+.page-header .left-block .logo-container .title {
+    color: #AB23EB;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.page-header .right-block {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+.page-header .right-block .exit {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    height: 7vh;
+}
+
+.page-header .right-block .exit > p {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    margin-right: 10px;
+}
+
+.page-header .right-block .exit .arrow-exit {
+    width: 24px;
+    height: 22px;
+    background-image: url('public/images/1.png');
+    background-size: 24px   40px;
+    border-radius: 90px;
+    background-color: #515151;
+    cursor: pointer;
+}
+
+.page-header .right-block .exit .arrow-exit:hover {
+    background-color: #AB23EB;
+}
+
+.svg {
+    cursor: pointer;
+}
+
+.svg:hover .circle {
+    fill: #AB23EB;
+}
+
+/*/////////////////////////////////////// Конец шапки ///////////////////////////////////////*/
+
+/*/////////////////////////////////////////// Меню //////////////////////////////////////////*/
+
+.dropleft {
+    display: block;
+    background: #221F1F;
+    height: 100vh;
+    /* min-height: 1086px!important; */
+    width: 360px;
+    position: fixed;
+    z-index: 22;
+    top: 0;
+    left: -1000px;
+    transition: all 0.2s ease;
+    box-sizing: border-box;
+    overflow-y: scroll;
+}
+
+.full {
+    display: block;
+    background: #221F1F;
+    height: 100vh;
+    /* min-height: 1086px!important; */
+    width: 100vw!important;
+    position: fixed;
+    z-index: 22;
+    top: 0;
+    left: -100vw;
+    transition: all 0.2s ease;
+    box-sizing: border-box;
+    overflow-y: scroll;
+}
+
+.dropleft-header {
+    height: 90px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.dropleft-header > img {
+    width: 27px;
+    height: 27px;
+    color: #fff;
+    float: left;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.dropleft-header .languages {
+    float: right;
+    display: flex;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+.dropleft-header .languages .ru {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.dropleft-header .languages .ua {
+    color: #AB23EB;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.dropleft .dropleft-content {
+    display: flex;
+    height: 460px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px ;
+}
+
+.dropleft .dropleft-content .logo {
+
+}
+
+.dropleft .dropleft-content .logo > img {
+    width: 150px;
+    height: 60px;
+    filter: drop-shadow(0.5px 1px 1px #AB23EB);
+    border-radius: 3px;
+}
+
+.dropleft .dropleft-content .inner-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.dropleft .dropleft-content .inner-list > a {
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    height: 24px;
+}
+
+.dropleft .dropleft-content .inner-list > a:hover {
+    color: #AB23EB;
+    font-weight: 600;
+}
+
+.dropleft .dropleft-content .cabinet {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center ;
+}
+
+.dropleft .dropleft-content .cabinet > p {
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.dropleft .dropleft-content .cabinet > a {
+    width: 112px;
+    height: 52px;
+}
+
+.dropleft .dropleft-footer {
+    display: flex;
+    flex-direction: column;
+    height: 225px;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.dropleft .dropleft-footer > p {
+    color: #fff;
+}
+
+.dropleft .dropleft-footer .telephone {
+    display: flex;
+    flex-direction: row;
+}
+
+.dropleft .dropleft-footer .telephone > img {
+
+}
+
+.dropleft .dropleft-footer .telephone > P {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.dropleft .dropleft-footer .networks {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    justify-content: space-between;
+}
+
+.dropoverlay {
+    display: block;
+    position: fixed;
+    top: 0;
+    background-color: #000;
+    left: -100vw;
+    width: 100vw;
+    height: 100vh;
+    z-index: 4;
+    opacity: 0.8;
+    transition: all 0s ease;
+}
+
+@media (max-width: 3000px) {
+    .text {
+        display: none;
+    }
+
+    .end {
+        display: none;
+    }
+
+    .vertical-content {
+        display: none;
+    }
+}
+
+@media (max-width: 1200px) {
+    .text {
+        display: none;
+    }
+
+    .end {
+        display: none;
+    }
+
+    .vertical-content {
+        display: none;
+    }
+}
+
+@media (max-width: 960px) {
+    .page-header {
+        width: 100%;
+        border-bottom: 1px solid #AB23EB;
+        height: 77px;
+    }
+
+    .exit {
+        display: none;
+    }
+
+    .exit > p {
+        display: none;
+    }
+
+    .svg {
+        display: none;
+    }
+
+    .account-icon {
+        display: none;
+    }
+
+    .text {
+        display: flex;
+    }
+
+    .text > p {
+        color: #fff;
+        font-size: 18px;
+        line-height: 22px;
+        font-weight: 600;
+    }
+
+    .right-block .end {
+        display: flex;
+        width: 30px;
+        height: 60px;
+        cursor: pointer;
+        margin-right: 40px;
+    }
+
+    .left-block > img {
+        display: none;
+    }
+}
+
+@media (max-width: 600px) {
+    .page-header .right-block .cinema .cinema-list > img {
+        width: 19px;
+        height: 19px;
+        margin-left: 0;
+    }
+
+    .page-header {
+        width: 100%;
+    }
+}

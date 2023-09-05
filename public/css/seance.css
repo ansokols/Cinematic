@@ -1,0 +1,248 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+h1, h2, h3, h4, h5, h6, ul, li, a, div, p {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #000;
+    list-style: none;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+body {
+    background-color: #221F1F;
+    overflow-x: hidden;
+}
+
+#poster {
+    position: relative;
+    top: 25px;
+    left: 21px;
+    width: 160px;
+    height: 230px;
+    border-radius: 20px 20px 20px 20px;
+}
+
+#film-path {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    position: relative;
+    top: 13px;
+    left: 21px;
+    color: #FFFFFF;
+}
+
+#film-name {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 51px;
+    position: absolute;
+    left: 200px;
+    top: 100px;
+    color: #FFFFFF;
+}
+
+.ticket-info {
+    position: absolute;
+    top: 150px;
+    left: 185px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 213.9%;
+    color: #FFFFFF;
+}
+
+.ticket-info td {
+    padding: 15px;
+}
+
+.place-choose {
+    position: absolute;
+    top: 550px;
+    left: 300px;
+    border-collapse: separate;
+    border-spacing: 10px;
+
+    width:  568px;
+}
+
+.place-box {
+    border: 2px solid #AB23EB;
+    width: 21px;
+    height: 29px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #221F1F;
+}
+
+.place-box.chosen {
+    border: 2px solid #AB23EB;
+    background-color: rgba(171, 35, 235, 0.5);
+    box-sizing: border-box;
+    border-radius: 5px;
+    cursor: default;
+}
+
+.ekran-svg {
+    position: absolute;
+    top:  400px;
+    left: 295px;
+}
+
+.chosen-tickets {
+    position: absolute;
+    width: 460px;
+    height: 830px;
+    background-color: #2A2727;
+    border-radius: 10px;
+    top: 88px;
+    right: 50px;
+}
+
+.online-text{
+    font-family: Montserrat;
+    font-style: normal;
+    /* font-weight: 500; */
+    font-weight: bold;
+    /* font-size: 18px; */
+    font-size: 20px;
+    line-height: 22px;
+    text-align: center;
+    margin-top: 15px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.continue, .continue:hover{
+    background-color: #AB23EB;
+    border-radius: 6px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    padding: 16px 145px 16px 148px;
+    color: #FFFFFF;
+    position: absolute;
+    bottom: 20px;
+    left: 16px;
+    text-decoration: none;
+}
+
+.pay {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    position: absolute;
+    left: 16px;
+    bottom: 100px;
+    color: #FFFFFF;
+}
+
+.pay-sum {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    position: absolute;
+    right: 16px;
+    bottom: 100px;
+    color: #FFFFFF;
+}
+
+.place-pay {
+    width: 400px;
+    height: 70px;
+    border: 2px solid #403D3D;
+    border-radius: 10px;
+    position: relative;
+    left: 1px;
+}
+
+.row {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    position: absolute;
+    top: 25px;
+    left: 33px;
+    color: #FFFFFF;
+}
+
+.place {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    position: absolute;
+    top: 25px;
+    left: 120px;
+    color: #FFFFFF;
+}
+
+.place-price {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    position: absolute;
+    top: 25px;
+    left: 290px;
+    color: #FFFFFF;
+}
+
+.ticket-cross {
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 20px;
+    right: 15px;
+    cursor: pointer;
+}
+
+.here {
+    /* background-color: blue; */
+    width: 450px;
+    position: relative;
+    top: 15px;
+    left: 30px;
+    height: 600px;
+    overflow-y: scroll;
+}
+
+.grey {
+    background-color: #393636;
+    border-color: #393636;
+    cursor: default;
+    width: 21px;
+    height: 29px;
+    border-radius: 5px;
+}
+
+.td-cross {
+    width: 10px;
+    position: relative;
+    height: 10px;
+    left: 4.3px;
+    top: -2px;
+}

@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, header, main, img, footer {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+
+body{
+    background: #393636;
+    /*height: 100vh;*/
+    overflow-x: hidden;
+}
+
+.page-header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 77px;
+}
+
+#main{
+    margin-top: 77px;
+    position: relative;
+    width: 100%;
+}
+
+#afisha{
+    position: absolute;
+    width: 50%;
+    min-height: 800px;
+    top:0;
+    left:0;
+    background-image: url("../images/Афиши.png");
+    box-shadow: 2px 0px 4px #AB23EB;
+    background-repeat: round;
+}
+
+#blur{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(45, 41, 41, 0.94);
+    padding-left: 38%;
+    padding-top: 50%;
+}
+
+#aflogo{
+    width: fit-content;
+    padding: 5px;
+    font-size: 36px;
+    font-weight: 600;
+    color: #AB23EB;
+    border: 6px solid #AB23EB;
+    border-radius: 10px;
+}
+
+#content{
+    position: absolute;
+    width: 49.8%;
+    top: 0;
+    right: 0;
+    height: 600px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px;
+    padding-left: 28px;
+    padding-top: 26px;
+    padding-right: 56px;
+    letter-spacing: 0;
+    text-align: left;
+    color: #FFFFFF;
+    background: #403D3D;
+    overflow: auto;
+}
+
+#content p{
+    padding-bottom: 2em;
+    font-weight: 300;
+}
+
+#footer{
+    position: absolute;
+    width: 50%;
+    /*top:94%;*/
+    top:77%;
+    right: 0;
+    font-weight: 600;
+    font-size: 18px;
+    color: #FFFFFF;
+    text-align: center;
+}
